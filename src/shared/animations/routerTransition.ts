@@ -9,7 +9,7 @@ export function accountModuleAnimation() {
 }
 
 export function slideFromBottom() {
-  return trigger('routerTransition', [
+  return trigger('slideFromBottom', [
     state('void', style({ 'padding-top': '20px', opacity: '0' })),
     state('*', style({ 'padding-top': '0px', opacity: '1' })),
     transition(':enter', [
