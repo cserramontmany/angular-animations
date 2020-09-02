@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "animation"
+    }
+  },
+  "defaultProject": "animation",
+  "cli": {
+    "analytics": "ed5aee4a-79a4-466c-bdf8-3e2cfa669cb8"
+  }
 }
